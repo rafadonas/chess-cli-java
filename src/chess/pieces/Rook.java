@@ -4,8 +4,6 @@ import boardgame.Board;
 import boardgame.Position;
 import chess.ChessPiece;
 import chess.Color;
-import com.sun.source.tree.BreakTree;
-
 
 public class Rook extends ChessPiece {
 
