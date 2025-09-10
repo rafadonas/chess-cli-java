@@ -66,9 +66,6 @@ public class UI {
         }
     }
 
-
-    }
-
     public static void printBoard(ChessPiece[][] pieces) {
         for (int i = 0; i < pieces.length; i++) {
             System.out.print((8 - i) + "    ");
@@ -122,6 +119,10 @@ public class UI {
         System.out.print("Black: ");
         System.out.println(Arrays.toString(black.toArray()));
         System.out.println(ANSI_RESET);
-
     }
 }
+
+
+
+
+
